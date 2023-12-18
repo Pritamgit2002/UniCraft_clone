@@ -6,9 +6,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-type Props = {};
-
-const Faq = (props: Props) => {
+const Faq = () => {
   return (
     <div className="flex flex-col items-center pt-40 text-center gap-y-10">
       <div className="bg--200">

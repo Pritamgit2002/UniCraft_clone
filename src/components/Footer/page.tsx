@@ -56,10 +56,13 @@ const Footer = (props: Props) => {
         </div>
 
         <div>
-          <Separator className="w-[380px] sm:w-[700px] xl:w-[1600px] mx-auto " />
+          {/* <Separator className="w-[380px] sm:w-[700px] xl:w-[1600px] mx-auto " /> */}
 
-          <div className="flex flex-col items-start gap-y-8 bg--200 px-3 sm:px-10 xl:px-32 sm:py-10 pt-12 sm:pt-40 bg-[#FFF9FF]  ">
-            <div className="flex flex-col bg--200 w-full">
+          <div
+            className="flex flex-col items-start 
+           gap-y-8 bg--200 px-3 sm:px-10 xl:px-32 sm:py-10  bg-[#FFF9FF]  "
+          >
+            <div className="flex flex-col bg--200 w-full border-t pt-12 sm:pt-20 border-green-400">
               <div className="font-semibold text-[24px] bg--200 w-full text-left text-gray-700 cursor-pointer ">
                 UniCraft
               </div>

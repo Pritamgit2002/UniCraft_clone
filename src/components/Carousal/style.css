@@ -1,0 +1,19 @@
+.body {
+  /* width: 1800px;
+  height: 500px;
+  background-color: #ffc0cb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  margin: 0 auto; */
+}
+
+.body::-webkit-scrollbar {
+  width: 0;
+}
+
+.body::-webkit-scrollbar-thumb {
+  background: transparent;
+}

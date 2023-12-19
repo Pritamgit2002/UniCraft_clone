@@ -9,7 +9,7 @@ type Props = {};
 const Hero: React.FC<Props> = (props) => {
   return (
     <div>
-      <div className="relative  flex flex-col items-center justify-center h-[1100px] sm:h-[940px] xl:h-auto bg- ">
+      <div className="relative  flex flex-col items-center justify-start h-[1100px] sm:h-[940px] xl:h-auto bg--500 ">
         {/* <Image
           src="/BG.png"
           alt="done"
@@ -24,7 +24,7 @@ const Hero: React.FC<Props> = (props) => {
           height={1500}
           className="w-full h-full object-contain top-0 hidden  xl:inline-block   "
         />
-        <div className="absolute pt-10 bg--200  flex flex-col justify-evenly bg--400 mx-auto text-black text-2xl ">
+        <div className="absolute pt-10 bg--200  flex flex-col justify-evenly bg--400 mx-auto text-black text-2xl bg- ">
           <div className="sm:flex items-center justify-around hidden pb-28 b-200">
             <div className="text-[24px] font-semibold cursor-pointer">
               UniCraft

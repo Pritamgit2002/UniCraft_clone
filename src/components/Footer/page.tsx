@@ -65,7 +65,7 @@ const Footer = (props: Props) => {
               <div className="font-semibold text-[24px] bg--200 w-full text-left text-gray-700 cursor-pointer ">
                 UniCraft
               </div>
-              <div className=" text-[18px] text--400 w-96 text-left text-gray-400">
+              <div className=" text-[18px] text--400 w-full sm:w-96 text-left text-gray-400">
                 Design amazing digital experiences that create more happy in the
                 world.
               </div>

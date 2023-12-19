@@ -11,15 +11,14 @@ type Props = {};
 
 const page = (props: Props) => {
   return (
-    // <div className="bg--200 mx-auto flex flex-col gap-[800px] ">
     <div className="flex flex-col justify-between">
-      {/* <Hero />
+      <Hero />
       <Carousal />
       <Work />
-      <Sisyphus /> */}
+      <Sisyphus />
       <Card />
-      {/* <Faq />
-      <Footer /> */}
+      <Faq />
+      <Footer />
     </div>
   );
 };

@@ -1,5 +1,8 @@
+"use client";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
 type Props = {};
 
@@ -27,9 +30,38 @@ const Hero: React.FC<Props> = (props) => {
               UniCraft
             </div>
             <div className="flex items-center justify-center gap-10 text-[18px]">
-              <span className="cursor-pointer">How it works</span>
-              <span className="cursor-pointer">Pricing</span>
-              <span className="cursor-pointer">FAQ</span>
+              <ScrollLink
+                to="work"
+                smooth={true}
+                duration={500}
+                spy={true}
+                // exact="true"
+                offset={-70}
+              >
+                <span className="cursor-pointer hover:underline">
+                  How it works
+                </span>
+              </ScrollLink>
+              <ScrollLink
+                to="pricing"
+                smooth={true}
+                duration={500}
+                spy={true}
+                // exact="true"
+                offset={-70}
+              >
+                <span className="cursor-pointer hover:underline">Pricing</span>
+              </ScrollLink>
+              <ScrollLink
+                to="FAQ"
+                smooth={true}
+                duration={500}
+                spy={true}
+                // exact="true"
+                offset={-100}
+              >
+                <span className="cursor-pointer hover:underline">FAQ</span>
+              </ScrollLink>
             </div>
             <div className="border border-black px-[32px] py-[12px] rounded-xl text-[18px] cursor-pointer hover:scale-105 duration-200 ease-in">
               Contact us

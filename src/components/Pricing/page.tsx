@@ -12,9 +12,12 @@ const arr = [
   "Create teams to collaborate on designs",
 ];
 
-const Card = () => {
+const Pricing = () => {
   return (
-    <div className="flex flex-col gap-y-10 items-center text-center py-20 bg-[#FDF5FF]">
+    <div
+      className="flex flex-col gap-y-10 items-center text-center py-20 bg-[#FDF5FF]"
+      id="pricing"
+    >
       <div>
         <div className=" text-[40px] xl:text-[50px] w-full  text-[#262E35] font-semibold mx-auto">
           Pricing made for collaborative support.
@@ -120,4 +123,4 @@ const Card = () => {
   );
 };
 
-export default Card;
+export default Pricing;

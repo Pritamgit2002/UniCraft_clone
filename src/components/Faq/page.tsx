@@ -3,7 +3,10 @@ import Accordion from "./Accordion";
 
 const Faq = () => {
   return (
-    <div className="flex flex-col items-center pt-20 text-center gap-y-10">
+    <div
+      className="flex flex-col items-center pt-20 text-center gap-y-10 "
+      id="FAQ"
+    >
       <div className="bg--200">
         <div className="font-semibold text-[48px] xl:text-[58px] ">
           Frequently asked questions

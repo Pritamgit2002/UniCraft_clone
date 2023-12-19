@@ -5,7 +5,10 @@ type Props = {};
 
 const Work = (props: Props) => {
   return (
-    <div className="flex flex-col items-center rounded-2xl shadow-xl text-center py-10 my-20 mx-10 sm:mx-20 lg:mx-20 xl:mx-40 border-[2px] border-gray-200 ">
+    <div
+      className="flex flex-col items-center rounded-2xl shadow-xl text-center py-10 my-20 mx-10 sm:mx-20 lg:mx-20 xl:mx-40 border-[2px] border-gray-200 "
+      id="work"
+    >
       <div>
         <div className="text-[48px] font-semibold">How it works</div>
         <div className="text-[16px] sm:text-[20px] text-gray-600">

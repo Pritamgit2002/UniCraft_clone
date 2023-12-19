@@ -16,7 +16,7 @@ const Card = () => {
   return (
     <div className="flex flex-col gap-y-10 items-center text-center py-20 bg-[#FDF5FF]">
       <div>
-        <div className=" text-[40px] xl:text-[50px] w-[345px] sm:w-[896px] xl:w-[993px]text-[#262E35] font-semibold mx-auto">
+        <div className=" text-[40px] xl:text-[50px] w-full bg-green-200 text-[#262E35] font-semibold mx-auto">
           Pricing made for collaborative support.
         </div>
         <div className=" w-[370px] sm:w-[500px] xl:w-[550px] mx-auto text-[16px] text-gray-500 font-medium ">
@@ -25,7 +25,7 @@ const Card = () => {
         </div>
       </div>
       <div className="grid sm:grid-cols-2 xl:grid-cols-3 col-span-2 gap-10 ">
-        <div className="w-[380px] h-[600px] bg-[#ffffff] text-black rounded-[16px] flex flex-col justify-center text-left pl-6 pr-6 py-6">
+        <div className="w-auto sm:w-[350px] xl:w-[380px] h-[600px] bg-[#ffffff] text-black rounded-[16px] flex flex-col justify-center text-left pl-6 pr-6 py-6">
           <div className="font-semibold text-[22px] text-[#191D23] ">
             Freebie
           </div>
@@ -55,7 +55,7 @@ const Card = () => {
             ))}
           </div>
         </div>
-        <div className="w-[380px] h-[600px] bg-gray-800 text-white rounded-[16px] flex flex-col justify-center text-left pl-6 pr-6 py-6">
+        <div className="w-auto sm:w-[350px] xl:w-[380px] h-[600px] bg-gray-800 text-white rounded-[16px] flex flex-col justify-center text-left pl-6 pr-6 py-6">
           <div className="font-semibold text-[22px]  ">Professional</div>
           <div className="font- text-[14px]  mt-3 ">
             Ideal for individuals who who need advanced features and tools for

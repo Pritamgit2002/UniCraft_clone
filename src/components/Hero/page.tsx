@@ -24,7 +24,7 @@ const Hero: React.FC<Props> = (props) => {
           height={1500}
           className="w-full h-full object-contain top-0 hidden  xl:inline-block   "
         />
-        <div className="absolute py-10 bg--200  flex flex-col justify-evenly bg--400 mx-auto   text-black text-2xl ">
+        <div className="absolute pt-10 bg--200  flex flex-col justify-evenly bg--400 mx-auto text-black text-2xl ">
           <div className="sm:flex items-center justify-around hidden pb-28 b-200">
             <div className="text-[24px] font-semibold cursor-pointer">
               UniCraft

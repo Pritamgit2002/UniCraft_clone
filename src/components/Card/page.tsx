@@ -25,7 +25,7 @@ const Card = () => {
         </div>
       </div>
       <div className="grid sm:grid-cols-2 xl:grid-cols-3 col-span-2 gap-10 ">
-        <div className="w-auto sm:w-[350px] xl:w-[380px] h-[600px] bg-[#ffffff] text-black rounded-[16px] flex flex-col justify-center text-left pl-6 pr-6 py-6">
+        <div className="w-[360px] xl:w-[380px] h-[600px] bg-[#ffffff] text-black rounded-[16px] flex flex-col justify-center text-left pl-6 pr-6 py-6 mx-auto">
           <div className="font-semibold text-[22px] text-[#191D23] ">
             Freebie
           </div>
@@ -55,7 +55,7 @@ const Card = () => {
             ))}
           </div>
         </div>
-        <div className="w-auto sm:w-[350px] xl:w-[380px] h-[600px] bg-gray-800 text-white rounded-[16px] flex flex-col justify-center text-left pl-6 pr-6 py-6">
+        <div className="w-[360px] xl:w-[380px] h-[600px] bg-gray-800 text-white rounded-[16px] flex flex-col justify-center text-left pl-6 pr-6 py-6 mx-auto">
           <div className="font-semibold text-[22px]  ">Professional</div>
           <div className="font- text-[14px]  mt-3 ">
             Ideal for individuals who who need advanced features and tools for
@@ -84,7 +84,7 @@ const Card = () => {
             ))}
           </div>
         </div>
-        <div className="w-[380px] h-[600px] bg-[#ffffff] col-span-1 sm:col-span-2 xl:col-span-1 mx-auto text-black rounded-[16px] flex flex-col justify-center text-left pl-6 pr-6 py-6">
+        <div className="w-[360px] h-[600px] bg-[#ffffff] col-span-1 sm:col-span-2 xl:col-span-1 mx-auto text-black rounded-[16px] flex flex-col justify-center text-left pl-6 pr-6 py-6">
           <div className="font-semibold text-[22px] text-[#191D23] ">
             Enterprise
           </div>

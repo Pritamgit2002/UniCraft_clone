@@ -6,16 +6,23 @@ type Props = {};
 const Hero: React.FC<Props> = (props) => {
   return (
     <div>
-      <div className="relative bg-[]  flex items-start justify-center h-[1100px] sm:h-[940px] xl:h-auto bg- ">
+      <div className="relative  flex flex-col items-center justify-center h-[1100px] sm:h-[940px] xl:h-auto bg- ">
+        {/* <Image
+          src="/BG.png"
+          alt="done"
+          width={1500}
+          height={1500}
+          className="w-full h-full object-contain mx-auto top-0 border border-green-500  border--300  "
+        /> */}
         <Image
           src="/BG.png"
           alt="done"
           width={1500}
           height={1500}
-          className="w-full h-full object-contain mx-auto  border--300  "
+          className="w-full h-full object-contain top-0 hidden  xl:inline-block   "
         />
-        <div className="absolute py-10 bg--200  flex flex-col justify-evenly bg--400  text-black text-2xl ">
-          <div className="sm:flex items-center justify-around hidden pb-24 ">
+        <div className="absolute py-10 bg--200  flex flex-col justify-evenly bg--400 mx-auto   text-black text-2xl ">
+          <div className="sm:flex items-center justify-around hidden pb-28 b-200">
             <div className="text-[24px] font-semibold cursor-pointer">
               UniCraft
             </div>

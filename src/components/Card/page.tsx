@@ -16,7 +16,7 @@ const Card = () => {
   return (
     <div className="flex flex-col gap-y-10 items-center text-center py-20 bg-[#FDF5FF]">
       <div>
-        <div className=" text-[40px] xl:text-[50px] w-full bg-green-200 text-[#262E35] font-semibold mx-auto">
+        <div className=" text-[40px] xl:text-[50px] w-full  text-[#262E35] font-semibold mx-auto">
           Pricing made for collaborative support.
         </div>
         <div className=" w-[370px] sm:w-[500px] xl:w-[550px] mx-auto text-[16px] text-gray-500 font-medium ">

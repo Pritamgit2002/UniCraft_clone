@@ -16,7 +16,7 @@ const Work = (props: Props) => {
           monthly fee.
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row items-center justify-center gap-8 sm:gap-2 lg:gap-16 xl:gap-32">
+      <div className="flex flex-col lg:flex-row items-center justify-center gap-8 sm:gap-2 lg:gap-16 xl:gap-24">
         <div className="relative flex items-center justify-center bg--200">
           <div className="text-[100px] sm:text-[125px] xl:text-[200px] font-semibold bg-gradient-to-b from-[#D8B4FE]  to-[#ffffff] bg-clip-text text-transparent">
             1

@@ -4,10 +4,10 @@ import React from "react";
 
 type Props = {};
 
-const Carousal = (props: Props) => {
+const Gallery = (props: Props) => {
   return (
     <div className="flex flex-col gap-y-12 mx-auto sm:pt-10">
-      <div className=" w-[400px] sm:w-[600px] xl:w-full bg--200 h-[500px] flex items-center justify-center gap-8 overflow-x-auto mx-auto body ">
+      <div className=" w-[400px] sm:w-[900px] xl:w-full bg--200 h-[500px] flex items-center justify-center gap-8 overflow-x-auto mx-auto body ">
         <Image
           src="/c.png"
           alt="done"
@@ -65,4 +65,4 @@ const Carousal = (props: Props) => {
   );
 };
 
-export default Carousal;
+export default Gallery;

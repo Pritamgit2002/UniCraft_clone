@@ -31,7 +31,7 @@ const Hero: React.FC<Props> = (props) => {
               <span className="cursor-pointer">Pricing</span>
               <span className="cursor-pointer">FAQ</span>
             </div>
-            <div className="border border-black px-[32px] py-[12px] rounded-xl text-[18px] cursor-pointer">
+            <div className="border border-black px-[32px] py-[12px] rounded-xl text-[18px] cursor-pointer hover:scale-105 duration-200 ease-in">
               Contact us
             </div>
           </div>
@@ -45,7 +45,7 @@ const Hero: React.FC<Props> = (props) => {
                 From strategic planning to digital presence, we're your
                 dedicated partner in achieving solo success.
               </div>
-              <div className="text-white bg-gray-800 rounded-[8px] px-[34px] py-[16px] mx-auto text-[16px] lg:text-[20px] cursor-pointer">
+              <div className="text-white bg-gray-800 rounded-[8px] px-[34px] py-[16px] mx-auto text-[16px] lg:text-[20px] cursor-pointer hover:scale-105 duration-200 ease-in">
                 View Pricing
               </div>
             </div>

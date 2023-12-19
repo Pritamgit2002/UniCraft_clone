@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
-import { CiCirclePlus, CiCircleMinus } from "react-icons/ci";
+import { LuMinusCircle, LuPlusCircle } from "react-icons/lu";
+
 const Accordion = ({ title, answer }: any) => {
   const [accordionOpen, setAccordionOpen] = useState(false);
 
@@ -13,11 +14,11 @@ const Accordion = ({ title, answer }: any) => {
         <span>{title}</span>
         {accordionOpen ? (
           <span>
-            <CiCircleMinus />
+            <LuMinusCircle />
           </span>
         ) : (
           <span>
-            <CiCirclePlus />
+            <LuPlusCircle />
           </span>
         )}
       </button>

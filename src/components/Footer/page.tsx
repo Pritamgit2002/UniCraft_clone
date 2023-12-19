@@ -8,7 +8,6 @@ import {
   FaAngellist,
   FaDribbble,
 } from "react-icons/fa";
-import { Separator } from "@/components/ui/separator";
 
 type Props = {};
 
@@ -50,7 +49,7 @@ const Footer = (props: Props) => {
           <div className="font-medium text-[20px] text-gray-500 py-4 px-5">
             Start your 30-day free trial. Cancel anytime.
           </div>
-          <div className="text-white bg-gray-800 rounded-[8px] text-[18px] py-[16px] px-[34px] w-[215px] mx-auto my-12 cursor-pointer">
+          <div className="text-white bg-gray-800 rounded-[8px] text-[18px] py-[16px] px-[34px] w-[215px] mx-auto my-12 cursor-pointer hover:scale-105 duration-200 ease-in">
             Contact us
           </div>
         </div>
@@ -60,7 +59,7 @@ const Footer = (props: Props) => {
 
           <div
             className="flex flex-col items-start 
-           gap-y-8 bg--200 px-3 sm:px-10 xl:px-32 sm:py-10  bg-[#FFF9FF]  "
+           gap-y-8 bg--200 px-3 sm:px-10 xl:px-32 sm:py-10  bg-[#FFF9FF]"
           >
             <div className="flex flex-col bg--200 w-full border-t pt-12 sm:pt-20 border-gray-400">
               <div className="font-semibold text-[24px] bg--200 w-full text-left text-gray-700 cursor-pointer ">
@@ -75,13 +74,13 @@ const Footer = (props: Props) => {
               <div className="text-[16px] text-gray-400 bg--200 text-left sm:text-center">
                 © 2077 Untitled UI. All rights reserved.
               </div>
-              <div className="grid grid-cols-3 sm:grid-cols-6 gap-x-6 gap-y-3 text-2xl text-gray-400 cursor-pointer">
-                <FaTwitter />
-                <FaLinkedin />
-                <FaFacebook />
-                <FaGithub />
-                <FaAngellist />
-                <FaDribbble />
+              <div className="grid grid-cols-3 sm:grid-cols-6 gap-x-6 gap-y-3 text-2xl text-gray-400 ">
+                <FaTwitter className="cursor-pointer hover:text-black" />
+                <FaLinkedin className="cursor-pointer hover:text-black" />
+                <FaFacebook className="cursor-pointer hover:text-black" />
+                <FaGithub className="cursor-pointer hover:text-black" />
+                <FaAngellist className="cursor-pointer hover:text-black" />
+                <FaDribbble className="cursor-pointer hover:text-black" />
               </div>
             </div>
           </div>

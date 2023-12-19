@@ -17,7 +17,7 @@ const page = (props: Props) => {
       <Carousal />
       <Work />
       <Sisyphus />
-      {/* <Card /> */}
+      <Card />
       <Faq />
       <Footer />
     </div>
